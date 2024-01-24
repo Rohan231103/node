@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<!-- Global Var  -->
+	<script type="text/javascript">
+		var a = 10;
+
+		function a1() {
+			document.write(a)
+		}
+		a1()
+	</script>
+
+
+	<!-- Local Var -->
+	<script type="text/javascript">
+		function f1() {
+			var b = 20
+
+			document.write(b)
+		}
+		f1()
+	</script>
+
+	<!-- Let -->
+
+	<script type="text/javascript">
+		{
+			let name = "My name is Rohan"
+			document.write("<br>")
+			document.write(name)
+			document.write("<br>")
+		}
+		document.write(name)
+	</script>
+
+	<!-- Window Object -->
+	<script type="text/javascript">
+		window.temp = "Hello"
+		function abc()
+		{
+			document.write(window.temp)
+		}
+		abc()
+		document.write("<br>")
+		document.write(window.temp)
+	</script>
+</body>
+</html>
